@@ -50,7 +50,7 @@ export const portfolioData = {
       github: "#",
       live: "https://harmonyspa.rw/",
       featured: true,
-      img: "/wouessi.png"
+      img: "/harmonyspa.png"
     },
     {
       id: 2,
@@ -61,7 +61,7 @@ export const portfolioData = {
       github: "#",
       live: "https://www.wouessi.com/",
       featured: true,
-      img: "/harmonyspa.png"
+      img: "/wouessi.png"
     },
     {
       id: 3,
