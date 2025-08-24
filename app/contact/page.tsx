@@ -226,6 +226,7 @@ export default function ContactPage() {
                         content: portfolioData.contact.email,
                         href: `mailto:${portfolioData.contact.email}`,
                         color: "primary",
+                        
                       },
                       {
                         icon: MapPin,
