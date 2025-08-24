@@ -105,7 +105,7 @@ export default function ContactPage() {
 
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
-              <Card className="p-8 hover:shadow-lg transition-shadow duration-300 animate-in slide-in-from-left-5 duration-700">
+              {/* <Card className="p-8 hover:shadow-lg transition-shadow duration-300 animate-in slide-in-from-left-5 duration-700">
                 <h2 className="text-2xl font-bold mb-6">Send Me a Message</h2>
 
                 {submitStatus.type && (
@@ -210,7 +210,7 @@ export default function ContactPage() {
                     template ID, and public key in the email service configuration.
                   </p>
                 </div>
-              </Card>
+              </Card> */}
 
               {/* Contact Information */}
               <div className="space-y-8 animate-in slide-in-from-right-5 duration-700 delay-200">

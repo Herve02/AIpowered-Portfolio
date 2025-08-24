@@ -1,3 +1,5 @@
+import { imageConfigDefault } from "next/dist/shared/lib/image-config";
+
 export const portfolioData = {
   hero: {
     name: "Twubahimana Herve",
@@ -44,38 +46,52 @@ export const portfolioData = {
       title: "Harmony Spa Website",
       description:
         "A responsive booking system with SEO optimization, featuring modern design and seamless user experience for spa services.",
-      tech: ["ReactJS", "TailwindCSS", "SEO", "Responsive Design"],
+      // tech: ["ReactJS", "TailwindCSS", "SEO", "Responsive Design"],
       github: "#",
-      live: "#",
+      live: "https://harmonyspa.rw/",
       featured: true,
+      img: "/wouessi.png"
     },
     {
       id: 2,
       title: "Wouessi Contributions",
       description:
         "ReactJS development and frontend optimization projects, focusing on performance improvements and user interface enhancements.",
-      tech: ["ReactJS", "JavaScript", "Performance Optimization", "UI/UX"],
+      // tech: ["ReactJS", "JavaScript", "Performance Optimization", "UI/UX"],
       github: "#",
-      live: "#",
+      live: "https://www.wouessi.com/",
       featured: true,
+      img: "/harmonyspa.png"
     },
     {
       id: 3,
       title: "Herve Designs",
       description:
         "Personal business website showcasing design portfolio and services, built with modern web technologies.",
-      tech: ["Next.js", "TailwindCSS", "TypeScript", "SEO"],
+      // tech: ["Next.js", "TailwindCSS", "TypeScript", "SEO"],
       github: "#",
-      live: "#",
+      live: "https://hervedesigns.vercel.app/",
       featured: false,
+      img: "/hervedesigns.png"
+    },
+    {
+      id: 4,
+      title: "PathFinder",
+      description:
+        "Career guidance and peer-support platform featuring AI-powered recommendations, responsive design, and intuitive user experience.",
+      // tech: ["Next.js", "TailwindCSS", "TypeScript", "SEO"],
+      github: "#",
+      live: "https://celebrated-clafoutis-b94e8f.netlify.app/",
+      featured: false,
+      img: "/pathfinder.png"
     },
   ],
   contact: {
-    email: "herve@example.com",
+    email: "twubaherve@gmail.com",
     social: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      portfolio: "https://hervedesigns.com",
+      github: "https://github.com/Herve02",
+      linkedin: "https://www.linkedin.com/in/herve-twubahimana-77a66019b/",
+      portfolio: "/",
     },
   },
 }

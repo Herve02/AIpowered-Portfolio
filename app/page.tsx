@@ -32,7 +32,7 @@ export default function HomePage() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="mb-8 animate-in fade-in-50 duration-700">
                 <img
-                  src="/professional-developer-portrait.png"
+                  src="/professional-developer-portrait.jpg"
                   alt="Twubahimana Herve - Professional Portrait"
                   className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-primary/20 hover:border-primary/40 transition-colors duration-300"
                   loading="eager"
@@ -146,7 +146,7 @@ export default function HomePage() {
                     >
                       <div className="aspect-video bg-muted/50 flex items-center justify-center overflow-hidden">
                         <img
-                          src={`/abstract-geometric-shapes.png?height=300&width=500&query=${project.title} project screenshot`}
+                          src={`${project.img}?height=300&width=500&query=${project.title} project screenshot`}
                           alt={`${project.title} Screenshot`}
                           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                           loading="lazy"
@@ -155,7 +155,7 @@ export default function HomePage() {
                       <div className="p-6">
                         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                         <p className="text-muted-foreground mb-4 leading-relaxed">{project.description}</p>
-                        <div className="flex flex-wrap gap-2">
+                        {/* <div className="flex flex-wrap gap-2">
                           {project.tech.slice(0, 3).map((tech) => (
                             <span
                               key={tech}
@@ -164,7 +164,7 @@ export default function HomePage() {
                               {tech}
                             </span>
                           ))}
-                        </div>
+                        </div> */}
                       </div>
                     </Card>
                   ))}

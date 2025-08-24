@@ -31,7 +31,7 @@ export default function AboutPage() {
               <div className="lg:col-span-1 animate-in slide-in-from-left-5 duration-700">
                 <div className="text-center">
                   <img
-                    src="/professional-developer-full-body.png"
+                    src="/professional-developer-full-body.jpg"
                     alt="Twubahimana Herve - Professional Photo"
                     className="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover border-4 border-primary/20 hover:border-primary/40 transition-colors duration-300"
                     loading="lazy"
