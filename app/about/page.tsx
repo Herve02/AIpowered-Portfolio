@@ -9,6 +9,7 @@ import { useVoiceCommands } from "@/hooks/use-voice-commands"
 import { portfolioData } from "@/lib/portfolio-data"
 import { Calendar, Globe, GraduationCap } from "lucide-react"
 import { VoiceFeedback } from "@/components/voice-feedback"
+import PortfolioSecretary from "../AiSecretary/PortfolioSecretary"
 
 export default function AboutPage() {
   const { isListening, isSupported, toggleListening, feedback } = useVoiceCommands()
@@ -113,6 +114,7 @@ export default function AboutPage() {
                   </Card>
                 ))}
               </div>
+              <PortfolioSecretary />
             </div>
           </div>
         </div>

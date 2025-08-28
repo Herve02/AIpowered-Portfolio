@@ -11,6 +11,7 @@ import Link from "next/link"
 import { ArrowRight, Code, Palette, Zap } from "lucide-react"
 import { VoiceHelpModal } from "@/components/voice-help-modal"
 import { AIVoiceInterface } from "@/components/ai-voice-interface"
+import PortfolioSecretary from "./AiSecretary/PortfolioSecretary"
 
 export default function HomePage() {
   const { isListening, isSupported, toggleListening, feedback, commands, currentLanguage, changeLanguage } =
@@ -181,6 +182,10 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+         <section id="portfolio-secretary">
+        <PortfolioSecretary />
+      </section>
       </main>
 
       <Footer />
